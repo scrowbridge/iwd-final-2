@@ -1,21 +1,19 @@
 {
-  "errors": [
-    "./packages/books/src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\packages\\books\\src\\index.js: Unexpected token, expected \"}\" (9:6)\n\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   name\u001b[33m:\u001b[39m \u001b[32m\"books\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   roots\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     books\u001b[33m:\u001b[39m \u001b[33mRoot\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   }\u001b[33m,\u001b[39m\u001b[0m\n    at Object._raise (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:97:45)\n    at Object.raiseWithData (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:92:17)\n    at Object.raise (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:41:17)\n    at Object.unexpected (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\util.js:161:16)\n    at Object.expect (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\util.js:138:28)\n    at Object.jsxParseExpressionContainer (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:378:12)\n    at Object.jsxParseElementAt (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:478:36)\n    at Object.jsxParseElement (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:544:19)\n    at Object.parseExprAtom (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:555:21)\n    at Object.parseExprSubscripts (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\expression.js:611:23)\n @ ./build/bundling/entry-points/hello-frontity/client.ts 1:46-89 1:324-337 1:478-1158 1:646-1157 1:729-755\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/hello-frontity/client.ts"
-  ],
+  "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "1255379f532ec00f62fb",
+  "hash": "6ca55136d3b086626de5",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\build\\static",
   "assetsByChunkName": {
     "hello-frontity": [
       "hello-frontity.module.js",
-      "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
+      "hello-frontity.53c1fb7dcb48ff758d8b.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "312fff1bdf3b4252a6a8.hot-update.json",
+      "name": "53c1fb7dcb48ff758d8b.hot-update.json",
       "size": 56,
       "chunks": [],
       "chunkNames": [],
@@ -26,8 +24,8 @@
       "emitted": false
     },
     {
-      "name": "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js",
-      "size": 3344,
+      "name": "hello-frontity.53c1fb7dcb48ff758d8b.hot-update.js",
+      "size": 2930,
       "chunks": [
         "hello-frontity"
       ],
@@ -42,7 +40,7 @@
     },
     {
       "name": "hello-frontity.module.js",
-      "size": 6102791,
+      "size": 6104127,
       "chunks": [
         "hello-frontity"
       ],
@@ -61,7 +59,7 @@
       ],
       "assets": [
         "hello-frontity.module.js",
-        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
+        "hello-frontity.53c1fb7dcb48ff758d8b.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -74,7 +72,7 @@
       ],
       "assets": [
         "hello-frontity.module.js",
-        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
+        "hello-frontity.53c1fb7dcb48ff758d8b.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -86,15 +84,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1501586,
+      "size": 1499737,
       "names": [
         "hello-frontity"
       ],
       "files": [
         "hello-frontity.module.js",
-        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
+        "hello-frontity.53c1fb7dcb48ff758d8b.hot-update.js"
       ],
-      "hash": "93a40793d2d3e9cda666",
+      "hash": "57281b58e0e7fa4e89a6",
       "siblings": [],
       "parents": [],
       "children": [],

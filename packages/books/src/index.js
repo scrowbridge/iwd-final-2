@@ -1,19 +1,16 @@
-const Root = () => {
-  return (
-    <>
-     <h1>Books</h1>
-  );
-};
+import Root from "./components"
 
-export default {
-  name: "books",
-  roots: {
-    books: Root
-  },
-  state: {
-    books: {}
-  },
-  actions: {
-    books: {}
-  }
-};
+const books = {
+    name: "books",
+    roots: {
+        theme: Root,
+    },
+    state: {
+        theme: {},
+    },
+    actions: {
+        theme: {},
+    },
+}
+
+export default books;
