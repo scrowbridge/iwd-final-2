@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "ef7e40e64cc07c3394a9",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\build\\static",
+  "assetsByChunkName": {
+    "hello-frontity": "hello-frontity.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "hello-frontity.module.js",
+      "size": 6438122,
+      "chunks": [
+        "hello-frontity"
+      ],
+      "chunkNames": [
+        "hello-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47425,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "hello-frontity": {
+      "chunks": [
+        "hello-frontity"
+      ],
+      "assets": [
+        "hello-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "hello-frontity": {
+      "chunks": [
+        "hello-frontity"
+      ],
+      "assets": [
+        "hello-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "hello-frontity",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1660175,
+      "names": [
+        "hello-frontity"
+      ],
+      "files": [
+        "hello-frontity.module.js"
+      ],
+      "hash": "0fb4d3a8772949ba5e19",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30248,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "92cf46ccf5f47f5332f7",
+      "siblings": [],
+      "parents": [
+        "hello-frontity"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
