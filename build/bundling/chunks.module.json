@@ -1,35 +1,53 @@
 {
-  "errors": [],
+  "errors": [
+    "./packages/books/src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\packages\\books\\src\\index.js: Unexpected token, expected \"}\" (9:6)\n\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   name\u001b[33m:\u001b[39m \u001b[32m\"books\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   roots\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     books\u001b[33m:\u001b[39m \u001b[33mRoot\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   }\u001b[33m,\u001b[39m\u001b[0m\n    at Object._raise (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:97:45)\n    at Object.raiseWithData (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:92:17)\n    at Object.raise (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\error.js:41:17)\n    at Object.unexpected (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\util.js:161:16)\n    at Object.expect (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\util.js:138:28)\n    at Object.jsxParseExpressionContainer (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:378:12)\n    at Object.jsxParseElementAt (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:478:36)\n    at Object.jsxParseElement (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:544:19)\n    at Object.parseExprAtom (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\plugins\\jsx\\index.js:555:21)\n    at Object.parseExprSubscripts (C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\node_modules\\@babel\\parser\\src\\parser\\expression.js:611:23)\n @ ./build/bundling/entry-points/hello-frontity/client.ts 1:46-89 1:324-337 1:478-1158 1:646-1157 1:729-755\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/hello-frontity/client.ts"
+  ],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "ef7e40e64cc07c3394a9",
+  "hash": "1255379f532ec00f62fb",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\build\\static",
   "assetsByChunkName": {
-    "hello-frontity": "hello-frontity.module.js",
-    "list": "list.module.js"
+    "hello-frontity": [
+      "hello-frontity.module.js",
+      "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "hello-frontity.module.js",
-      "size": 6438122,
-      "chunks": [
-        "hello-frontity"
-      ],
-      "chunkNames": [
-        "hello-frontity"
-      ],
-      "info": {},
+      "name": "312fff1bdf3b4252a6a8.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "list.module.js",
-      "size": 47425,
+      "name": "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js",
+      "size": 3344,
       "chunks": [
-        "list"
+        "hello-frontity"
       ],
       "chunkNames": [
-        "list"
+        "hello-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "hello-frontity.module.js",
+      "size": 6102791,
+      "chunks": [
+        "hello-frontity"
+      ],
+      "chunkNames": [
+        "hello-frontity"
       ],
       "info": {},
       "emitted": false
@@ -42,7 +60,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -54,17 +73,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "list": {
-      "chunks": [
-        "list"
-      ],
-      "assets": [
-        "list.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -76,41 +86,17 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1660175,
+      "size": 1501586,
       "names": [
         "hello-frontity"
       ],
       "files": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.312fff1bdf3b4252a6a8.hot-update.js"
       ],
-      "hash": "0fb4d3a8772949ba5e19",
+      "hash": "93a40793d2d3e9cda666",
       "siblings": [],
       "parents": [],
-      "children": [
-        "list"
-      ],
-      "childrenByOrder": {},
-      "modules": [],
-      "filteredModules": 0,
-      "origins": []
-    },
-    {
-      "id": "list",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "size": 30248,
-      "names": [
-        "list"
-      ],
-      "files": [
-        "list.module.js"
-      ],
-      "hash": "92cf46ccf5f47f5332f7",
-      "siblings": [],
-      "parents": [
-        "hello-frontity"
-      ],
       "children": [],
       "childrenByOrder": {},
       "modules": [],
@@ -121,7 +107,7 @@
   "logging": {
     "webpack.buildChunkGraph.visitModules": {
       "entries": [],
-      "filteredEntries": 5,
+      "filteredEntries": 2,
       "debug": false
     }
   },
