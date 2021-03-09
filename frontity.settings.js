@@ -3,7 +3,7 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/",
-      "title": "Test Frontity Blog",
+      "title": "Nicholas Sparks Books",
       "description": "WordPress installation for Frontity development"
     }
   },
@@ -15,7 +15,14 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/"
+          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/",
+          "postTypes": [
+            {
+              type: "books",
+              endpoint: "books",
+              archive: "/book"
+            }
+          ]
         }
       }
     },

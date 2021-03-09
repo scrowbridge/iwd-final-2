@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "ea85dd857eb04bde3507",
+  "hash": "a21c9dbc0d6cdf2d4f83",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Sara\\Desktop\\iwd\\iwd-final\\hello-frontity\\build\\static",
   "assetsByChunkName": {
     "hello-frontity": [
       "hello-frontity.module.js",
-      "hello-frontity.d8f6ed7ccca4e51ed20d.hot-update.js"
+      "hello-frontity.1789a298d7fc4f8ea901.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "d8f6ed7ccca4e51ed20d.hot-update.json",
+      "name": "1789a298d7fc4f8ea901.hot-update.json",
       "size": 56,
       "chunks": [],
       "chunkNames": [],
@@ -24,8 +24,8 @@
       "emitted": false
     },
     {
-      "name": "hello-frontity.d8f6ed7ccca4e51ed20d.hot-update.js",
-      "size": 41647,
+      "name": "hello-frontity.1789a298d7fc4f8ea901.hot-update.js",
+      "size": 42352,
       "chunks": [
         "hello-frontity"
       ],
@@ -40,7 +40,7 @@
     },
     {
       "name": "hello-frontity.module.js",
-      "size": 6300165,
+      "size": 6300870,
       "chunks": [
         "hello-frontity"
       ],
@@ -59,7 +59,7 @@
       ],
       "assets": [
         "hello-frontity.module.js",
-        "hello-frontity.d8f6ed7ccca4e51ed20d.hot-update.js"
+        "hello-frontity.1789a298d7fc4f8ea901.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "hello-frontity.module.js",
-        "hello-frontity.d8f6ed7ccca4e51ed20d.hot-update.js"
+        "hello-frontity.1789a298d7fc4f8ea901.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -84,15 +84,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1574036,
+      "size": 1574474,
       "names": [
         "hello-frontity"
       ],
       "files": [
         "hello-frontity.module.js",
-        "hello-frontity.d8f6ed7ccca4e51ed20d.hot-update.js"
+        "hello-frontity.1789a298d7fc4f8ea901.hot-update.js"
       ],
-      "hash": "3e5adbbdea1d471b8100",
+      "hash": "8d8ad1bc0c16544c044a",
       "siblings": [],
       "parents": [],
       "children": [],
