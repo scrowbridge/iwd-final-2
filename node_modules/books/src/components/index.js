@@ -7,6 +7,7 @@ import Post from "./post"
 import Page from "./page"
 import Loading from "./loading"
 import Error from "./error"
+import Home from "./home"
 
 const Root = ({ state, actions }) => {
     const data = state.source.get(state.router.link)
@@ -52,8 +53,10 @@ const Root = ({ state, actions }) => {
             <hr />
             <Main>
                 <Switch>
+
                     <Loading when={data.isFetching} />
                     <List when={data.isArchive} />
+                    <Home when={data.isHome} />
                     <Post when={data.isPost} />
                     <Page when={data.isPage} />
                     <Page when={data.isBook} />
