@@ -1,7 +1,7 @@
 import React from "react"
 import { connect, styled } from "frontity"
 import Link from "@frontity/components/link"
-
+import FeaturedMedia from "@frontity/mars-theme/src/components/featured-media";
 const List = ({ state, actions }) => {
     const data = state.source.get(state.router.link)
 
@@ -11,9 +11,14 @@ const List = ({ state, actions }) => {
             {data.items.map((item) => {
                 const post = state.source[item.type][item.id]
                 return (
+                    <div>
+
                     <Link key={item.id} link={post.link}>
-                        {post.title.rendered}
+                        <FeaturedMedia id={post.featured_media}>
+                        </FeaturedMedia>
+                        <div class ="title"> {post.title.rendered} </div>
                     </Link>
+                    </div>
                 )
             })}
             <PrevNextNav>
@@ -44,18 +49,27 @@ const List = ({ state, actions }) => {
 export default connect(List)
 
 const Items = styled.div`
-  & > a {
+  a {
     display: block;
-    margin: 8px 0;
-    font-size: 1.2em;
-    color: #000;
+    font-size: 2.4em;
     text-decoration: none;
+    text-align: center;
+    color: #000;
+    margin: 20px 0;
   }
   a:hover {
     text-decoration: underline;
     color: #FBACA5;
   }
+  .title {
+   margin-top: -80px;
+  }
+  img {
+    height: 300px;
+  }
 `
+
+
 const PrevNextNav = styled.div`
   padding-top: 1.5em;
 

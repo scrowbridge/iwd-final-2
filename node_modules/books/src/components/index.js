@@ -49,6 +49,8 @@ const Root = ({ state, actions }) => {
                     <br />
                     <Link link="/book">Books</Link>
                     <br />
+                    <Link link="/review">Reviews</Link>
+                    <br />
                     <Link link="/contact">Contact Us</Link>
                 </Menu>
                 </HeaderContent>
@@ -61,6 +63,7 @@ const Root = ({ state, actions }) => {
                     <Post when={data.isPost} />
                     <Page when={data.isPage} />
                     <Page when={data.isBook} />
+                    <Page when={data.isReview} />
                     <Error when={data.isError} />
                 </Switch>
             </Main>

@@ -22,7 +22,12 @@ const settings = {
               type: "books",
               endpoint: "books",
               archive: "/book"
-            }
+            },
+            {
+              type: "reviews",
+              endpoint: "reviews",
+              archive: "/review"
+            },
           ],
 
         }
