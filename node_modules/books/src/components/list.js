@@ -7,6 +7,7 @@ const List = ({ state, actions }) => {
 
     return (
         <Items>
+            <h2>Books</h2>
             {data.items.map((item) => {
                 const post = state.source[item.type][item.id]
                 return (
@@ -36,6 +37,7 @@ const List = ({ state, actions }) => {
                 )}
             </PrevNextNav>
         </Items>
+
     )
 }
 
@@ -44,10 +46,14 @@ export default connect(List)
 const Items = styled.div`
   & > a {
     display: block;
-    margin: 6px 0;
+    margin: 8px 0;
     font-size: 1.2em;
-    color: steelblue;
+    color: #000;
     text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #FBACA5;
   }
 `
 const PrevNextNav = styled.div`

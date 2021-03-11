@@ -1,4 +1,5 @@
 import Root from "./components"
+import link from "@frontity/html2react/processors/link";
 
 const books = {
     name: "books",
@@ -15,6 +16,11 @@ const books = {
             toggleUrl: ({ state }) => {
                 state.theme.isUrlVisible = !state.theme.isUrlVisible
             },
+        },
+    },
+    libraries: {
+        html2react: {
+            processors: [link]
         },
     },
 }

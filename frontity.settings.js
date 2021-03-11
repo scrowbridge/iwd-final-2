@@ -1,5 +1,5 @@
 const settings = {
-  "name": "final-frontity",
+  "name": "hello-frontity",
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
@@ -9,47 +9,22 @@ const settings = {
   },
   "packages": [
     {
-      "name": "books",
-      "state": {
-        "theme": {
-          "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "About",
-              "/author-bio"
-            ],
-            [
-              "Books",
-              "/book"
-            ],
-            [
-              "Contact Us",
-              "/contact"
-            ],
-          ],
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false
-          }
-        }
-      }
+      name: "books"
     },
     {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
           "homepage": "sample-page",
-          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress",
+          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/",
           "postTypes": [
             {
               type: "books",
               endpoint: "books",
               archive: "/book"
             }
-          ]
+          ],
+
         }
       }
     },
