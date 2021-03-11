@@ -119,7 +119,7 @@ const Main = styled.main`
   h3 {
     color: #61ADAD;
     font-size: 40px;
-    margin: 20px 0;
+    margin: 50px 0 40px 0;
   }
   p {
     line-height: 1.5em;
@@ -244,6 +244,6 @@ const Menu = styled.nav`
  }
  
  a:hover {
-     color: #949494;
+     color: #fbaca5;
  }
 `
