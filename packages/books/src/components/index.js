@@ -88,7 +88,6 @@ const Header = styled.header`
     font-size: 0.9em;
     padding-top: 5px;
   }
-  
   #top {
     background-color: #FBACA5;
     color: #FBACA5;
@@ -117,6 +116,11 @@ const Main = styled.main`
     font-size: 40px;
     padding: 30px 0;
   }
+  h3 {
+    color: #61ADAD;
+    font-size: 40px;
+    margin: 20px 0;
+  }
   p {
     line-height: 1.5em;
     margin-bottom: 0.75em;
@@ -130,7 +134,7 @@ const Main = styled.main`
     margin-top: 50px;
     width: 60%;
   
-    h4{
+    h4 {
         color: #61adad;
         font-size: 28px;
         margin-bottom: 18px;
@@ -142,7 +146,6 @@ const Main = styled.main`
        text-decoration: none;
        color: #faaca5;
        font-size: 23px;
-
     }
     a:hover {
        text-decoration: underline;
